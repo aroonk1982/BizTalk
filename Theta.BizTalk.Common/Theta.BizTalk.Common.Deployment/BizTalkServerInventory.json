@@ -1,6 +1,22 @@
 ﻿{
   "$schema": "C:\\Program Files (x86)\\Microsoft BizTalk Server 2016\\Developer Tools\\BizTalkServerAppplicationSchema.json",
   "BizTalkAssemblies": [
+    {
+      "Name": "Schemas",
+      "Path": "bin\\Theta.BizTalk.Common.Schemas.dll"
+    },
+    {
+      "Name": "Transforms",
+      "Path": "bin\\Theta.BizTalk.Common.Maps.dll"
+    },
+    {
+      "Name": "Pipelines",
+      "Path": "bin\\Theta.BizTalk.Common.Pipelines.dll"
+    },
+    {
+      "Name": "Orchestrations",
+      "Path": "bin\\Theta.BizTalk.Common.Orchestrations.dll"
+    }
   ],
   "BindingsFiles": [
     {
@@ -17,6 +33,6 @@
   "Files": [
   ],
   "DeploymentSequence": [
-    "Binding1"
+    "Schemas", "Transforms", "Pipelines", "Orchestrations", "Binding1"
   ]
 }
