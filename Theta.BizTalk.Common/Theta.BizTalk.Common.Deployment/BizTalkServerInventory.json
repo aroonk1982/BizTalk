@@ -30,8 +30,6 @@
   ],
   "PostProcessingScripts": [
   ],
-  "Files": [
-  ],
   "DeploymentSequence": [
     "Schemas", "Transforms", "Pipelines", "Orchestrations", "Binding1"
   ]
