@@ -89,6 +89,13 @@
       <Name>Theta.BizTalk.Common.Schemas</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <XLang Include="ProcessCustomers.odx">
+      <TypeName>ProcessCustomers</TypeName>
+      <Namespace>Theta.BizTalk.Common.Orchestrations</Namespace>
+      <SubType>Task</SubType>
+    </XLang>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\BizTalk\BizTalkC.targets" />
 </Project>

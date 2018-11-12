@@ -73,11 +73,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Schema Include="InputSchema.xsd">
-      <TypeName>InputSchema</TypeName>
-      <Namespace>Theta.BizTalk.Common.Schemas</Namespace>
-      <SubType>Task</SubType>
-    </Schema>
     <None Include="Theta.BizTalk.Common.Schemas.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
